@@ -1,0 +1,134 @@
+!SpriteSheet
+Id: 22704048-9186-4e4b-a02a-4b6d032a2852
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    e14d5710dc2e37b0c667602c85504ac5:
+        Source: !file ../Resources/GhostHunterSpriteSheet.png
+        Name: Idle
+        TextureRegion: {X: 23, Y: 16, Width: 51, Height: 99}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    d014de57f2b7b856f55dc0276e465352:
+        Source: !file ../Resources/GhostHunterSpriteSheet.png
+        Name: WalkDown
+        TextureRegion: {X: 19, Y: 125, Width: 50, Height: 101}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    a62f60397acbfa44a373524656c47c94:
+        Source: !file ../Resources/GhostHunterSpriteSheet.png
+        Name: WalkDown
+        TextureRegion: {X: 81, Y: 125, Width: 52, Height: 102}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    fa2d847911baf933bebd33eb5b3caa6a:
+        Source: !file ../Resources/GhostHunterSpriteSheet.png
+        Name: WalkDown
+        TextureRegion: {X: 147, Y: 126, Width: 50, Height: 101}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    f78e6aa89a5313e26b0a7f7484950bad:
+        Source: !file ../Resources/GhostHunterSpriteSheet.png
+        Name: WalkDown
+        TextureRegion: {X: 203, Y: 126, Width: 51, Height: 102}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    d41bd75e610578d4bc4aeaebaa27b5f5:
+        Source: !file ../Resources/GhostHunterSpriteSheet.png
+        Name: WalkRight
+        TextureRegion: {X: 19, Y: 238, Width: 55, Height: 98}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    2e873367fcbd830136b04a21dbb5c63f:
+        Source: !file ../Resources/GhostHunterSpriteSheet.png
+        Name: WalkRight
+        TextureRegion: {X: 87, Y: 236, Width: 50, Height: 98}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    cb68dd3dc11d11ad87fe33aa39e658c4:
+        Source: !file ../Resources/GhostHunterSpriteSheet.png
+        Name: WalkRight
+        TextureRegion: {X: 145, Y: 237, Width: 60, Height: 98}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    a8a9005c4c0f9212cb57586fe011f3bf:
+        Source: !file ../Resources/GhostHunterSpriteSheet.png
+        Name: WalkRight
+        TextureRegion: {X: 210, Y: 236, Width: 50, Height: 98}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    9c168718a6573da0eed816f928fa13cc:
+        Source: !file ../Resources/GhostHunterSpriteSheet.png
+        Name: WalkLeft
+        TextureRegion: {X: 11, Y: 343, Width: 50, Height: 98}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    b3aacb60cdf671ee49de9ef53f4fcfe6:
+        Source: !file ../Resources/GhostHunterSpriteSheet.png
+        Name: WalkLeft
+        TextureRegion: {X: 71, Y: 344, Width: 60, Height: 98}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    6fb6a45fbac09813207166d94b628d4a:
+        Source: !file ../Resources/GhostHunterSpriteSheet.png
+        Name: WalkLeft
+        TextureRegion: {X: 139, Y: 343, Width: 50, Height: 98}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    eece08c1548e602a30ff88f850aa7b0b:
+        Source: !file ../Resources/GhostHunterSpriteSheet.png
+        Name: WalkLeft
+        TextureRegion: {X: 202, Y: 345, Width: 55, Height: 98}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    8687d67af19db0936353ed531fa05e5d:
+        Source: !file ../Resources/GhostHunterSpriteSheet.png
+        Name: WalkUp
+        TextureRegion: {X: 18, Y: 458, Width: 55, Height: 102}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    40c92f9dc599464ee316640d3e7cc918:
+        Source: !file ../Resources/GhostHunterSpriteSheet.png
+        Name: WalkUp
+        TextureRegion: {X: 78, Y: 456, Width: 56, Height: 103}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    264630e3b45fbf80dec17f9ef73f0ba7:
+        Source: !file ../Resources/GhostHunterSpriteSheet.png
+        Name: WalkUp
+        TextureRegion: {X: 138, Y: 457, Width: 55, Height: 102}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    9b2d73b92a8d09391738791a7f67a7c8:
+        Source: !file ../Resources/GhostHunterSpriteSheet.png
+        Name: WalkUp
+        TextureRegion: {X: 199, Y: 457, Width: 56, Height: 102}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    e7e599abb53d23b1642bdfc73317f714:
+        Source: !file ../Resources/GhostHunterSpriteSheet.png
+        Name: Ball
+        TextureRegion: {X: 116, Y: 49, Width: 27, Height: 26}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

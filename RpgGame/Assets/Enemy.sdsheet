@@ -1,0 +1,22 @@
+!SpriteSheet
+Id: d24bdf7d-845d-44a8-b06d-e1bb8dc86f0e
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    84ddf8c6c972c89767650c48718a1261:
+        Source: !file ../Resources/enemySpriteSheet.png
+        Name: Ghost
+        TextureRegion: {X: 22, Y: 9, Width: 72, Height: 84}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    8322c5db76f3623d7ac1b96e7e2bf6e1:
+        Source: !file ../Resources/enemySpriteSheet.png
+        Name: GhostPool
+        TextureRegion: {X: 17, Y: 115, Width: 132, Height: 127}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

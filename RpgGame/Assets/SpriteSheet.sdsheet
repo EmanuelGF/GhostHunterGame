@@ -1,0 +1,50 @@
+!SpriteSheet
+Id: 01f542f4-0c05-4859-aacb-9f77753e8585
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    02178a6c902f42b2d73515d539894167:
+        Source: !file ../Resources/WorldElements.png
+        Name: Wall
+        TextureRegion: {X: 18, Y: 20, Width: 193, Height: 83}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    ef2facae33cba7e578589e727673ade9:
+        Source: !file ../Resources/WorldElements.png
+        Name: BigRock1
+        TextureRegion: {X: 245, Y: 23, Width: 82, Height: 77}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    4c28bb6cc550820b775b832475f6f083:
+        Source: !file ../Resources/WorldElements.png
+        Name: BigRock2
+        TextureRegion: {X: 356, Y: 22, Width: 89, Height: 77}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    730f2a80ee2a8740e145d5f336d7756e:
+        Source: !file ../Resources/WorldElements.png
+        Name: SmallRock1
+        TextureRegion: {X: 478, Y: 40, Width: 63, Height: 57}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    d52287a0153adcf422571170e5a7e143:
+        Source: !file ../Resources/WorldElements.png
+        Name: SmallRock2
+        TextureRegion: {X: 565, Y: 50, Width: 57, Height: 49}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    a4ba1fd8c7256a8c14c257766337e4c5:
+        Source: !file ../Resources/WorldElements.png
+        Name: BigWall
+        TextureRegion: {X: 1, Y: 116, Width: 733, Height: 47}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

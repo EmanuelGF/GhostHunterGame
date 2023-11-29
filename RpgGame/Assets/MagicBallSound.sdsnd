@@ -1,0 +1,9 @@
+!Sound
+Id: 0f9de02a-80f5-4cb9-83e3-1c65fa690e71
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../Resources/Sounds/MagicBallSound.mp3
+SampleRate: 22050
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: false

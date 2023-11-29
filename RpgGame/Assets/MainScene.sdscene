@@ -1,0 +1,831 @@
+!SceneAsset
+Id: 9d2367a6-d606-46ed-ac4a-92a4b50f9110
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+ChildrenIds: []
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
+Hierarchy:
+    RootParts:
+        - ref!! 2ba20458-5719-4ff0-bc02-5fab0456e100
+        - ref!! aa0d0db6-36a9-472b-a712-291ef285e91b
+        - ref!! 2ee6c573-f241-4364-b2db-6183aafc3ff3
+        - ref!! a2a2d805-4820-43e3-a999-ffb3343bd057
+        - ref!! 00365fe8-9e6c-499f-96ce-8f565b4a9a8f
+        - ref!! f84f977d-af5f-4dac-88ab-6a6ac560d989
+        - ref!! 77478a34-f47f-4316-9e00-4ee96befb90c
+        - ref!! cd7830af-0d8e-4140-9f17-bb2f04bf943c
+        - ref!! f1382fc8-c329-4da5-82f5-89b871231025
+        - ref!! 8db2215a-339f-4860-aba6-7474670ed2f1
+        - ref!! 4ed7a35b-e9bb-4524-84a1-d2050e03583f
+        - ref!! 9d2942ac-61c2-4ca7-bbba-26e5bfe10695
+        - ref!! 6fef2159-faa9-4a57-9608-745a5ad59fa8
+        - ref!! 638b93f8-88ec-4876-bd0e-3ce50fccb518
+        - ref!! be9042b5-3747-4053-9bde-0415a66d933d
+        - ref!! 6b6cc5af-febb-45ed-8e5a-9507d197fa69
+        - ref!! 2fad6923-1611-4376-b6b2-7a34c94b94a6
+        - ref!! ca00efcc-4def-4046-92e7-7008139ee1e3
+        - ref!! e623cf17-a0e7-4377-83d0-c5b4226b8ff2
+        - ref!! 50abe052-09b3-4d3a-95e9-62a0261d0fb7
+        - ref!! 0db4825d-a676-4b81-b511-20da7d1120de
+        - ref!! 9e7a22bd-7758-4cae-a4a0-483d896415d0
+        - ref!! 05afab13-b131-47fe-be46-c104f7d3fc63
+        - ref!! 619e605b-6370-4412-9fc9-8213f7e7cf7d
+        - ref!! 189e8cae-1959-47c1-b393-7434106e53da
+        - ref!! 021776b8-da54-44ae-a061-da9d2861955e
+    Parts:
+        -   Folder: World
+            Entity:
+                Id: 00365fe8-9e6c-499f-96ce-8f565b4a9a8f
+                Name: Wall
+                Components:
+                    60b384346c96e61ec5f4daf3add51c10: !TransformComponent
+                        Id: 3246d6b2-7d6c-4ad2-89cc-cc984d391d54
+                        Position: {X: 12.263177, Y: 8.763175, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.70722044, W: 0.7069931}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6642d7cbd8ea8da5f61530e1c99a281c: !SpriteComponent
+                        Id: 4b233ea6-d6b7-47b9-9140-71b4545ccbad
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 01f542f4-0c05-4859-aacb-9f77753e8585:SpriteSheet
+                            CurrentFrame: 5
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    3e4c80f4e296a88ae464495e05117864: !StaticColliderComponent
+                        Id: 4618f498-0541-40b9-be80-6b5e5a2b4483
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            f258e2488a61f22846c681376ee95ac3: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 7.3, Y: 0.5, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: null
+            Entity:
+                Id: 021776b8-da54-44ae-a061-da9d2861955e
+                Name: SpawnPoint3
+                Components:
+                    0567c68821084cbb699f12daeb6c4ff5: !TransformComponent
+                        Id: fd7ee4dd-a806-4b67-9854-608c2383f21e
+                        Position: {X: 9.467868, Y: -8.537884, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6d984ef19253edd6532691ac8f514ae5: !RpgGame.SpawnPoint,RpgGame
+                        Id: 3bf8dd37-4e15-4ccf-aed3-cd4d5ab7a2f5
+                    6736c418c86a223e1809c65ff59a4dd4: !SpriteComponent
+                        Id: 7f760b6e-a4d2-4da1-9fb2-a52937cb0008
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: d24bdf7d-845d-44a8-b06d-e1bb8dc86f0e:Enemy
+                            CurrentFrame: 1
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Folder: World
+            Entity:
+                Id: 05afab13-b131-47fe-be46-c104f7d3fc63
+                Name: Rock
+                Components:
+                    294575b1b741522f1e9bf8dffcd93df4: !TransformComponent
+                        Id: c22d822d-f16d-433c-8067-3f8a5b6966c4
+                        Position: {X: 7.946779, Y: 6.8938627, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    d8c6dd7bd42f9ca1c6647c7ca2a22a51: !SpriteComponent
+                        Id: ba1d11d8-d5ce-4d94-b799-c180ca7c22a7
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 01f542f4-0c05-4859-aacb-9f77753e8585:SpriteSheet
+                            CurrentFrame: 2
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    0b09882dd112a7326946f9b3a88cb082: !StaticColliderComponent
+                        Id: a981c00c-b9b8-463d-8ea1-227837390613
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            3738c836392e8539aeb8ee7891848ec8: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 0.9, Y: 0.8, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: World
+            Entity:
+                Id: 0db4825d-a676-4b81-b511-20da7d1120de
+                Name: Rock
+                Components:
+                    294575b1b741522f1e9bf8dffcd93df4: !TransformComponent
+                        Id: a9df50d6-92f0-42d3-a9bf-8cd31eb28cbc
+                        Position: {X: 1.988131, Y: -2.3256195, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    d8c6dd7bd42f9ca1c6647c7ca2a22a51: !SpriteComponent
+                        Id: b08b0c26-df44-4cd2-abe1-4d2789763818
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 01f542f4-0c05-4859-aacb-9f77753e8585:SpriteSheet
+                            CurrentFrame: 2
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    0b09882dd112a7326946f9b3a88cb082: !StaticColliderComponent
+                        Id: 447d8580-4031-475d-b7a5-63902f3cf5e0
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.0
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            3738c836392e8539aeb8ee7891848ec8: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 0.9, Y: 0.85, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: null
+            Entity:
+                Id: 189e8cae-1959-47c1-b393-7434106e53da
+                Name: SpawnPoint2
+                Components:
+                    0567c68821084cbb699f12daeb6c4ff5: !TransformComponent
+                        Id: f05309db-fd1b-407d-9842-6ad731283dc3
+                        Position: {X: 9.467868, Y: 8.591562, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6d984ef19253edd6532691ac8f514ae5: !RpgGame.SpawnPoint,RpgGame
+                        Id: 7617702c-260c-4653-882a-1ccbb000eecf
+                    6736c418c86a223e1809c65ff59a4dd4: !SpriteComponent
+                        Id: 595c8ecc-3048-44f3-b922-f1bb2c26caf0
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: d24bdf7d-845d-44a8-b06d-e1bb8dc86f0e:Enemy
+                            CurrentFrame: 1
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: 2ba20458-5719-4ff0-bc02-5fab0456e100
+                Name: Camera
+                Components:
+                    3d3fb1b83fdc2f865ac1d82c6a8b4a26: !TransformComponent
+                        Id: 4e78eb2d-b1ff-4341-bd54-a1a664ab45b1
+                        Position: {X: 0.0, Y: 0.0, Z: 50.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    312585b16c6c00984a318e6d67b2a0a4: !CameraComponent
+                        Id: 54f9be50-f2ca-46fc-ba7f-9a7c459245b4
+                        Name: null
+                        Projection: Orthographic
+                        OrthographicSize: 6.0
+                        FarClipPlane: 80.0
+                        Slot: 882b4cf6-857b-45b9-bf5f-c6714ed7f799
+                    3557364000095b5dd985880522c4fc81: !RpgGame.CameraBehaviour,RpgGame
+                        Id: 96f05620-7d01-4d18-9037-8ba0724b4306
+                        EntityToFollow: ref!! 2ee6c573-f241-4364-b2db-6183aafc3ff3
+        -   Entity:
+                Id: 2ee6c573-f241-4364-b2db-6183aafc3ff3
+                Name: GhostHunter
+                Components:
+                    0a50987d791ad8945c7d7aec2076b0dc: !TransformComponent
+                        Id: 7de8505b-7149-48e5-9f52-1b50fe9e9277
+                        Position: {X: 0.0, Y: 0.0, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.1, Y: 1.2, Z: 1.0}
+                        Children: {}
+                    0f41faa7aa62fbed3313cb9549e44f70: !SpriteComponent
+                        Id: f45829c3-eece-4893-9d3e-2a6a4891dd68
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 22704048-9186-4e4b-a02a-4b6d032a2852:GhostHunterSpriteSheet
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    0abba4576be66c6a772756659e48aaa4: !RpgGame.GhostHunterControls,RpgGame
+                        Id: 9de896d0-4da6-4432-bc31-3b7a3ff832f5
+                        direction: {}
+                    8a3b2a341c80e89a1775816cee1f29d2: !RigidbodyComponent
+                        Id: ae4753d7-d493-44ba-8617-13ccc3bb28b8
+                        CanCollideWith: DefaultFilter, StaticFilter, KinematicFilter, DebrisFilter, SensorTrigger, CharacterFilter, CustomFilter2, CustomFilter3, CustomFilter4, CustomFilter5, CustomFilter6, CustomFilter7, CustomFilter8, CustomFilter9, CustomFilter10
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            a773cd22916f3cfa21d43d253064b3ad: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 0.6, Y: 1.05, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    3057bc71628b56048e18200d55e97130: !RpgGame.GhostHunterShootingAction,RpgGame
+                        Id: 0f0ebc8b-3da6-4736-9ebe-eff39a330644
+                        itemSpriteSheet: 22704048-9186-4e4b-a02a-4b6d032a2852:GhostHunterSpriteSheet
+        -   Folder: World
+            Entity:
+                Id: 2fad6923-1611-4376-b6b2-7a34c94b94a6
+                Name: Wall
+                Components:
+                    60b384346c96e61ec5f4daf3add51c10: !TransformComponent
+                        Id: c46335e4-96d1-486c-86ed-aaa964f92350
+                        Position: {X: -1.3332272, Y: -12.181253, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.9999979, W: -0.0020522028}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6642d7cbd8ea8da5f61530e1c99a281c: !SpriteComponent
+                        Id: ec625a9a-cbeb-4c83-b31e-3ac7848c0e30
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 01f542f4-0c05-4859-aacb-9f77753e8585:SpriteSheet
+                            CurrentFrame: 5
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    3e4c80f4e296a88ae464495e05117864: !StaticColliderComponent
+                        Id: fe730f76-1b3e-4d31-8e06-6ec5f660625f
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            f258e2488a61f22846c681376ee95ac3: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 7.3, Y: 0.5, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: World
+            Entity:
+                Id: 4ed7a35b-e9bb-4524-84a1-d2050e03583f
+                Name: Wall
+                Components:
+                    60b384346c96e61ec5f4daf3add51c10: !TransformComponent
+                        Id: 54b18dfa-684d-4d67-9ac7-dbf25da070b3
+                        Position: {X: -12.180015, Y: -8.800682, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.70722044, W: 0.7069931}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6642d7cbd8ea8da5f61530e1c99a281c: !SpriteComponent
+                        Id: 5a01d07b-5b50-40ce-9b3f-77b7d39501bc
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 01f542f4-0c05-4859-aacb-9f77753e8585:SpriteSheet
+                            CurrentFrame: 5
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    3e4c80f4e296a88ae464495e05117864: !StaticColliderComponent
+                        Id: 74ae6496-ad34-46a5-9086-0d6d205af1c0
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            f258e2488a61f22846c681376ee95ac3: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 7.3, Y: 0.5, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: World
+            Entity:
+                Id: 50abe052-09b3-4d3a-95e9-62a0261d0fb7
+                Name: Rock
+                Components:
+                    294575b1b741522f1e9bf8dffcd93df4: !TransformComponent
+                        Id: 2ffdf75c-e203-4d33-85de-1c814bc407c1
+                        Position: {X: -6.616051, Y: 2.515317, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    d8c6dd7bd42f9ca1c6647c7ca2a22a51: !SpriteComponent
+                        Id: f23e915b-e7d1-4c1a-9e89-83d6ebadc4a0
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 01f542f4-0c05-4859-aacb-9f77753e8585:SpriteSheet
+                            CurrentFrame: 2
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    0b09882dd112a7326946f9b3a88cb082: !StaticColliderComponent
+                        Id: b54604cc-3343-490a-9d8e-32e00c33c571
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            3738c836392e8539aeb8ee7891848ec8: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 0.9, Y: 0.8, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Entity:
+                Id: 619e605b-6370-4412-9fc9-8213f7e7cf7d
+                Name: SpawnPoint1
+                Components:
+                    0567c68821084cbb699f12daeb6c4ff5: !TransformComponent
+                        Id: a8d4ae2a-9180-47a5-b5d2-896abbde13ab
+                        Position: {X: -4.400975, Y: 7.086474, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6d984ef19253edd6532691ac8f514ae5: !RpgGame.SpawnPoint,RpgGame
+                        Id: bb4c3fec-4e6c-4385-9b30-41b979168482
+                    6736c418c86a223e1809c65ff59a4dd4: !SpriteComponent
+                        Id: 06af3c2b-181f-44a3-8a43-54157670c037
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: d24bdf7d-845d-44a8-b06d-e1bb8dc86f0e:Enemy
+                            CurrentFrame: 1
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Folder: World
+            Entity:
+                Id: 638b93f8-88ec-4876-bd0e-3ce50fccb518
+                Name: Wall
+                Components:
+                    60b384346c96e61ec5f4daf3add51c10: !TransformComponent
+                        Id: 6e6de939-cc90-4b76-ae85-c29b60d0da3b
+                        Position: {X: -1.3512329, Y: 12.332335, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.9999979, W: -0.0020522028}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6642d7cbd8ea8da5f61530e1c99a281c: !SpriteComponent
+                        Id: af718e87-3839-4337-9167-111e079e1cc6
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 01f542f4-0c05-4859-aacb-9f77753e8585:SpriteSheet
+                            CurrentFrame: 5
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    3e4c80f4e296a88ae464495e05117864: !StaticColliderComponent
+                        Id: 9ebec53d-de93-4540-8815-7697b0d3a91b
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            f258e2488a61f22846c681376ee95ac3: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 7.3, Y: 0.5, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: World
+            Entity:
+                Id: 6b6cc5af-febb-45ed-8e5a-9507d197fa69
+                Name: Wall
+                Components:
+                    60b384346c96e61ec5f4daf3add51c10: !TransformComponent
+                        Id: a6167479-f419-4f50-acf8-e4b8502e14bc
+                        Position: {X: 8.810751, Y: 12.332335, Z: 1.449207}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.9999979, W: -0.0020522028}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6642d7cbd8ea8da5f61530e1c99a281c: !SpriteComponent
+                        Id: a2489508-e016-4e5b-a1cd-a37fccccea06
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 01f542f4-0c05-4859-aacb-9f77753e8585:SpriteSheet
+                            CurrentFrame: 5
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    3e4c80f4e296a88ae464495e05117864: !StaticColliderComponent
+                        Id: 68d3714f-7302-4dc3-8ed3-638d4406ea65
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            f258e2488a61f22846c681376ee95ac3: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 7.3, Y: 0.5, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: World
+            Entity:
+                Id: 6fef2159-faa9-4a57-9608-745a5ad59fa8
+                Name: Wall
+                Components:
+                    60b384346c96e61ec5f4daf3add51c10: !TransformComponent
+                        Id: 6bb279ae-24b2-42bd-9251-3a3ad693a006
+                        Position: {X: -8.626083, Y: 12.332335, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.9999979, W: -0.0020522028}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6642d7cbd8ea8da5f61530e1c99a281c: !SpriteComponent
+                        Id: a7d6ce86-728c-45f7-bbf5-e18c611d7ff0
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 01f542f4-0c05-4859-aacb-9f77753e8585:SpriteSheet
+                            CurrentFrame: 5
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    3e4c80f4e296a88ae464495e05117864: !StaticColliderComponent
+                        Id: 5ce10e4c-b75b-41d8-8c95-ab183363d1e4
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            f258e2488a61f22846c681376ee95ac3: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 7.3, Y: 0.5, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: World
+            Entity:
+                Id: 77478a34-f47f-4316-9e00-4ee96befb90c
+                Name: Wall
+                Components:
+                    60b384346c96e61ec5f4daf3add51c10: !TransformComponent
+                        Id: 9defb80f-a6dd-4e2d-969b-d1b0b928c810
+                        Position: {X: 12.263177, Y: -5.520541, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.70722044, W: 0.7069931}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6642d7cbd8ea8da5f61530e1c99a281c: !SpriteComponent
+                        Id: d7049bfb-1a75-4e7f-8f57-5a99cc0dc32d
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 01f542f4-0c05-4859-aacb-9f77753e8585:SpriteSheet
+                            CurrentFrame: 5
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    3e4c80f4e296a88ae464495e05117864: !StaticColliderComponent
+                        Id: 6d2a9202-b243-4cc2-b885-862491299629
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            f258e2488a61f22846c681376ee95ac3: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 7.3, Y: 0.5, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: World
+            Entity:
+                Id: 8db2215a-339f-4860-aba6-7474670ed2f1
+                Name: Wall
+                Components:
+                    60b384346c96e61ec5f4daf3add51c10: !TransformComponent
+                        Id: dbe9c5ab-8422-4d32-9742-f68b751b2778
+                        Position: {X: -12.180015, Y: -5.808038, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.70722044, W: 0.7069931}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6642d7cbd8ea8da5f61530e1c99a281c: !SpriteComponent
+                        Id: 202fb38d-e4da-4f6d-a033-44cc4d05959f
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 01f542f4-0c05-4859-aacb-9f77753e8585:SpriteSheet
+                            CurrentFrame: 5
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    3e4c80f4e296a88ae464495e05117864: !StaticColliderComponent
+                        Id: c95795c8-852e-4b20-8865-a1bd04000320
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            f258e2488a61f22846c681376ee95ac3: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 7.3, Y: 0.5, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: World
+            Entity:
+                Id: 9d2942ac-61c2-4ca7-bbba-26e5bfe10695
+                Name: Wall
+                Components:
+                    60b384346c96e61ec5f4daf3add51c10: !TransformComponent
+                        Id: e22ccab7-283e-4a0a-95f4-0440b6a69865
+                        Position: {X: -8.340424, Y: -12.153536, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.9999979, W: -0.0020522028}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6642d7cbd8ea8da5f61530e1c99a281c: !SpriteComponent
+                        Id: 64da5098-0016-41a7-930b-2e8f6f9e44ea
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 01f542f4-0c05-4859-aacb-9f77753e8585:SpriteSheet
+                            CurrentFrame: 5
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    3e4c80f4e296a88ae464495e05117864: !StaticColliderComponent
+                        Id: a3579ccf-f70a-40b2-a81e-f68d413d7f03
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            f258e2488a61f22846c681376ee95ac3: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 7.3, Y: 0.5, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: World
+            Entity:
+                Id: 9e7a22bd-7758-4cae-a4a0-483d896415d0
+                Name: Rock
+                Components:
+                    294575b1b741522f1e9bf8dffcd93df4: !TransformComponent
+                        Id: 0a63ee18-bdcc-4411-ae28-9f62f40a43ef
+                        Position: {X: -8.258074, Y: -8.826383, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    d8c6dd7bd42f9ca1c6647c7ca2a22a51: !SpriteComponent
+                        Id: 08888892-b403-4015-9fe3-7e687defde62
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 01f542f4-0c05-4859-aacb-9f77753e8585:SpriteSheet
+                            CurrentFrame: 2
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    0b09882dd112a7326946f9b3a88cb082: !StaticColliderComponent
+                        Id: 8bc0c6ab-4bb0-4590-8dc5-4ca9510c99a3
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            3738c836392e8539aeb8ee7891848ec8: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 0.9, Y: 0.8, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: World
+            Entity:
+                Id: a2a2d805-4820-43e3-a999-ffb3343bd057
+                Name: Wall
+                Components:
+                    60b384346c96e61ec5f4daf3add51c10: !TransformComponent
+                        Id: 6d8a8ac2-3955-48fa-8564-0aa6f27aae88
+                        Position: {X: -12.1397085, Y: 8.763175, Z: 1.1519411}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.70722044, W: 0.7069931}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6642d7cbd8ea8da5f61530e1c99a281c: !SpriteComponent
+                        Id: 57ae7d84-0281-46ac-991c-e6dd99967c82
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 01f542f4-0c05-4859-aacb-9f77753e8585:SpriteSheet
+                            CurrentFrame: 5
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    3e4c80f4e296a88ae464495e05117864: !StaticColliderComponent
+                        Id: 6faaf843-bd25-4599-88a4-d2697e4b3bac
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            f258e2488a61f22846c681376ee95ac3: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 7.3, Y: 0.5, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Entity:
+                Id: aa0d0db6-36a9-472b-a712-291ef285e91b
+                Name: Background
+                Components:
+                    c602b60a8a966375ef0d611b4d711532: !TransformComponent
+                        Id: 0c793daf-8164-4c08-a113-f12fe7bc17e1
+                        Position: {X: 0.0, Y: 0.0, Z: 0.9}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    e0087c3236e223908a6ff66c43ece94b: !SpriteComponent
+                        Id: 7008054d-72b9-4514-8729-7b756ef29e82
+                        SpriteProvider: !SpriteFromTexture
+                            Texture: 7f3bc6ec-01b0-4aab-8ca3-147834ebb5e3:background3
+                            Center: {X: 0.0, Y: 0.0}
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Folder: World
+            Entity:
+                Id: be9042b5-3747-4053-9bde-0415a66d933d
+                Name: Wall
+                Components:
+                    60b384346c96e61ec5f4daf3add51c10: !TransformComponent
+                        Id: 5d4447fb-5616-45eb-a2d1-d1458b7dea3d
+                        Position: {X: 5.926436, Y: 12.332335, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.9999979, W: -0.0020522028}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6642d7cbd8ea8da5f61530e1c99a281c: !SpriteComponent
+                        Id: fab9f667-25f3-4c07-b10c-936d597bffde
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 01f542f4-0c05-4859-aacb-9f77753e8585:SpriteSheet
+                            CurrentFrame: 5
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    3e4c80f4e296a88ae464495e05117864: !StaticColliderComponent
+                        Id: 2a6f2abe-939d-475f-9d17-450e5fa10489
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            f258e2488a61f22846c681376ee95ac3: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 7.3, Y: 0.5, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: World
+            Entity:
+                Id: ca00efcc-4def-4046-92e7-7008139ee1e3
+                Name: Wall
+                Components:
+                    60b384346c96e61ec5f4daf3add51c10: !TransformComponent
+                        Id: 0de446bc-2c9a-457f-8844-45fe533471c5
+                        Position: {X: 5.13832, Y: -12.192013, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.9999979, W: -0.0020522028}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6642d7cbd8ea8da5f61530e1c99a281c: !SpriteComponent
+                        Id: 7fd23189-a150-40a1-89a0-b18aaff7f2ef
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 01f542f4-0c05-4859-aacb-9f77753e8585:SpriteSheet
+                            CurrentFrame: 5
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    3e4c80f4e296a88ae464495e05117864: !StaticColliderComponent
+                        Id: f48ae0cb-7516-49e2-ac85-eadb023887b5
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            f258e2488a61f22846c681376ee95ac3: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 7.3, Y: 0.5, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: World
+            Entity:
+                Id: cd7830af-0d8e-4140-9f17-bb2f04bf943c
+                Name: Wall
+                Components:
+                    60b384346c96e61ec5f4daf3add51c10: !TransformComponent
+                        Id: 2f37f106-a73f-4222-8830-0af64f4f6d24
+                        Position: {X: 12.263177, Y: -8.788793, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.70722044, W: 0.7069931}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6642d7cbd8ea8da5f61530e1c99a281c: !SpriteComponent
+                        Id: 07ca40bd-b7ae-4e5f-b742-343901063a1e
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 01f542f4-0c05-4859-aacb-9f77753e8585:SpriteSheet
+                            CurrentFrame: 5
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    3e4c80f4e296a88ae464495e05117864: !StaticColliderComponent
+                        Id: 37393a9d-295b-455d-9087-4c69296e8fb9
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            f258e2488a61f22846c681376ee95ac3: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 7.3, Y: 0.5, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: World
+            Entity:
+                Id: e623cf17-a0e7-4377-83d0-c5b4226b8ff2
+                Name: Wall
+                Components:
+                    60b384346c96e61ec5f4daf3add51c10: !TransformComponent
+                        Id: b75d2590-ba81-45e9-8631-f4efe8c6a583
+                        Position: {X: 8.527442, Y: -12.209848, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.9999979, W: -0.0020522028}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6642d7cbd8ea8da5f61530e1c99a281c: !SpriteComponent
+                        Id: 02360c3d-2f39-49d4-9d10-47f2768fad84
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 01f542f4-0c05-4859-aacb-9f77753e8585:SpriteSheet
+                            CurrentFrame: 5
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    3e4c80f4e296a88ae464495e05117864: !StaticColliderComponent
+                        Id: 17221577-229e-41f7-9397-231934d0691e
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            f258e2488a61f22846c681376ee95ac3: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 7.3, Y: 0.5, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: World
+            Entity:
+                Id: f1382fc8-c329-4da5-82f5-89b871231025
+                Name: Wall
+                Components:
+                    60b384346c96e61ec5f4daf3add51c10: !TransformComponent
+                        Id: 479d6075-ba32-46ab-9528-792375e3aafb
+                        Position: {X: -12.180015, Y: 1.4752703, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.70722044, W: 0.7069931}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6642d7cbd8ea8da5f61530e1c99a281c: !SpriteComponent
+                        Id: 5865eb57-6ac5-4469-af6a-8435598b61e5
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 01f542f4-0c05-4859-aacb-9f77753e8585:SpriteSheet
+                            CurrentFrame: 5
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    3e4c80f4e296a88ae464495e05117864: !StaticColliderComponent
+                        Id: 640f8ebe-2fbf-4929-ba75-4a6956fa1de2
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            f258e2488a61f22846c681376ee95ac3: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 7.3, Y: 0.5, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: World
+            Entity:
+                Id: f84f977d-af5f-4dac-88ab-6a6ac560d989
+                Name: Wall
+                Components:
+                    60b384346c96e61ec5f4daf3add51c10: !TransformComponent
+                        Id: bce90ba8-0eff-4099-8bd7-bbca5f080950
+                        Position: {X: 12.263177, Y: 1.7255101, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.70722044, W: 0.7069931}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6642d7cbd8ea8da5f61530e1c99a281c: !SpriteComponent
+                        Id: 2447fa9d-7471-49f9-ab6c-45cc9c2282f9
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 01f542f4-0c05-4859-aacb-9f77753e8585:SpriteSheet
+                            CurrentFrame: 5
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    3e4c80f4e296a88ae464495e05117864: !StaticColliderComponent
+                        Id: 349aa5cb-b25e-4157-a481-a636c4341a23
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            f258e2488a61f22846c681376ee95ac3: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 7.3, Y: 0.5, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}

@@ -1,0 +1,7 @@
+!Texture
+Id: 7f3bc6ec-01b0-4aab-8ca3-147834ebb5e3
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../Resources/background3.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
