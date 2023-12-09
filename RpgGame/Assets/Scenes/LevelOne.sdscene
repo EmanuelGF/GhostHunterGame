@@ -32,6 +32,7 @@ Hierarchy:
         - ref!! 619e605b-6370-4412-9fc9-8213f7e7cf7d
         - ref!! 189e8cae-1959-47c1-b393-7434106e53da
         - ref!! 021776b8-da54-44ae-a061-da9d2861955e
+        - ref!! 602773cb-cafd-4d61-9323-34250d8d9511
     Parts:
         -   Folder: World
             Entity:
@@ -333,6 +334,23 @@ Hierarchy:
                                 Size: {X: 0.9, Y: 0.8, Z: 1.0}
                                 LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Entity:
+                Id: 602773cb-cafd-4d61-9323-34250d8d9511
+                Name: ScoreUI
+                Components:
+                    2500f0acb64dcf4132c4bc6e071cea11: !TransformComponent
+                        Id: 15bf64fd-92cb-4436-a83f-fa3e2975d233
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    05d7f51a45f0a5e7beb71210c934ec54: !UIComponent
+                        Id: 37815488-96b1-4d90-b9d3-2b7617999dc9
+                        Page: c54cc8e6-0a08-4674-9546-744ec87bb80c:ScoreUI
+                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                        Size: {X: 1.28, Y: 0.72, Z: 1.0}
+                    c2bdba4c7ba547331afbd0dc93e6d6c7: !RpgGame.ShowInGameScore,RpgGame
+                        Id: cfddbb6e-2949-4a8b-923b-190a9540553c
         -   Entity:
                 Id: 619e605b-6370-4412-9fc9-8213f7e7cf7d
                 Name: SpawnPoint1

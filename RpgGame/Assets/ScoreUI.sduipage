@@ -1,0 +1,39 @@
+!UIPageAsset
+Id: c54cc8e6-0a08-4674-9546-744ec87bb80c
+SerializedVersion: {Stride: 2.1.0.1}
+Tags: []
+Design:
+    Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+Hierarchy:
+    RootParts:
+        - !Grid ref!! a071b882-13e6-40b0-ba59-3ff030617e66
+    Parts:
+        -   UIElement: !TextBlock
+                Id: 4c538965-8a7a-45f6-9c17-90f3547b3620
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 260.0
+                Height: 43.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 29.0, Top: 28.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: InGameScore
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !Grid
+                Id: a071b882-13e6-40b0-ba59-3ff030617e66
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Children:
+                    6156bf74b9cd8fed2b0c62ef2921bf24: !TextBlock ref!! 4c538965-8a7a-45f6-9c17-90f3547b3620
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}

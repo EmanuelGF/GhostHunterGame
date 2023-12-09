@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Stride.Core.Mathematics;
-using Stride.Input;
-using Stride.Engine;
+﻿using Stride.Engine;
 using Stride.Physics;
+using System.Threading.Tasks;
 
 namespace RpgGame
 {
@@ -31,10 +25,13 @@ namespace RpgGame
 
             var affected = collider.ColliderA == physics ? collider.ColliderB.Entity : collider.ColliderA.Entity;
 
-            if ( affected.Name == "GhostHunter")
+            if (affected.Name == "GhostHunter")
             {
-                affected.Scene = null;
-                affected.Dispose();
+                // Reset the current scene.
+                Content.Unload(SceneSystem.SceneInstance.RootScene);
+
+                // Load the StartMenu scene.
+                SceneSystem.SceneInstance.RootScene = Content.Load<Scene>("Scenes/StartMenu");
             }
 
         }

@@ -16,8 +16,9 @@ namespace RpgGame
 
         public override void Start()
         {
-            var shootBallSound = Content.Load<Sound>("MagicBallSound");
+            var shootBallSound = Content.Load<Sound>("Sounds/MagicBallSound");
             shootBallInstance = shootBallSound.CreateInstance();
+            shootBallInstance.Volume = 0.1f;
         }
 
         public override void Update()

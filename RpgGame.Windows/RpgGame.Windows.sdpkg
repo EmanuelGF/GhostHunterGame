@@ -15,5 +15,8 @@ ExplicitFolders: []
 Bundles: []
 TemplateFolders: []
 RootAssets:
-    - 0f9de02a-80f5-4cb9-83e3-1c65fa690e71:MagicBallSound
-    - d974c32c-a7a5-4aca-bbde-68804645a93f:GhostDiesSound
+    - 0f9de02a-80f5-4cb9-83e3-1c65fa690e71:Sounds/MagicBallSound
+    - 7df1c716-b8a4-4c15-9e00-24cefdd9522d:Scenes/StartMenu
+    - 99c973bb-a234-45da-8b60-d0dd72ac8327:Sounds/SpookyAmbientMusic
+    - 9d2367a6-d606-46ed-ac4a-92a4b50f9110:Scenes/LevelOne
+    - d974c32c-a7a5-4aca-bbde-68804645a93f:Sounds/GhostDiesSound
