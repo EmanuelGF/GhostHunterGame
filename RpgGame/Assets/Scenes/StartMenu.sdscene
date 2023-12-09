@@ -1,0 +1,75 @@
+!SceneAsset
+Id: 7df1c716-b8a4-4c15-9e00-24cefdd9522d
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+ChildrenIds: []
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
+Hierarchy:
+    RootParts:
+        - ref!! 4c94f99e-2f1b-483f-a249-a9e72e81deaf
+        - ref!! e162eab0-edd9-4789-bb8d-28b315656bb8
+        - ref!! 52880abf-cf47-464b-a675-7e1cc97c7fe9
+        - ref!! ba970d14-deef-4c14-9d09-113398966d0d
+    Parts:
+        -   Entity:
+                Id: 4c94f99e-2f1b-483f-a249-a9e72e81deaf
+                Name: Camera
+                Components:
+                    9b6db916c6ffae5f9c354e78492f0527: !TransformComponent
+                        Id: a8980b09-c88d-4255-90e3-2ed31a64a718
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    402c120b140c154163c3bf4880c1fc2b: !CameraComponent
+                        Id: e283aa52-a9e0-4b20-b3d2-1c4e95c00659
+                        Name: null
+                        Projection: Orthographic
+                        Slot: 882b4cf6-857b-45b9-bf5f-c6714ed7f799
+        -   Entity:
+                Id: 52880abf-cf47-464b-a675-7e1cc97c7fe9
+                Name: StartMenu
+                Components:
+                    d77c9bfd1383722acbd2c4820d6ff9ee: !TransformComponent
+                        Id: 711ccd4a-4291-4134-bbe0-e8bc40111b54
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    7bd53ae8bf2294b7087e2156484183fd: !UIComponent
+                        Id: a715a89f-98b2-41c8-a1fb-438d9e21b473
+                        Page: 27c98fba-4c5a-4880-bbfa-9e92d27c6112:StartMenu
+                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                        Size: {X: 1.28, Y: 0.72, Z: 1.0}
+                    2b264577e240dd2593963337cf2e9c88: !RpgGame.StartMenu.ExitButtonClick,RpgGame
+                        Id: 0c354275-f96a-4a1f-8236-b8a63742bd05
+                    452c3a50a0a8d6aa9bab56352b465037: !RpgGame.StartMenu.PlayButtonClick,RpgGame
+                        Id: 1f58e179-f315-4896-9f3f-cdcd0b08a925
+                    cd53e8814fefa2014ef7a8e930997049: !RpgGame.StartMenu.ShowLastScore,RpgGame
+                        Id: 6bbed897-7c8c-454e-a97b-3d8d67a6a1e5
+        -   Entity:
+                Id: ba970d14-deef-4c14-9d09-113398966d0d
+                Name: BGAmbientSound
+                Components:
+                    f931febaeeb15bbd6b6ae5ec35c48983: !TransformComponent
+                        Id: 587b9968-bc9a-40d3-96ee-460b258c1ec2
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    dde3d0394b9adac4ab69b292b2c3b538: !RpgGame.StartMenu.StartMenuAmbientSound,RpgGame
+                        Id: 7fd1e847-fb29-4cc2-9d3e-ce2d4e7488ac
+        -   Entity:
+                Id: e162eab0-edd9-4789-bb8d-28b315656bb8
+                Name: Background
+                Components:
+                    27b0fd20699f1d43756c0e34f54d6c2c: !TransformComponent
+                        Id: 1413612c-72bb-42cd-aef6-1913cc480e7f
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    7f4900e77f83b0b48a9b20ec53e44530: !BackgroundComponent
+                        Id: 3e6abc0b-11bf-419a-83ba-e01ad8d4a1c0
+                        Texture: 7f3bc6ec-01b0-4aab-8ca3-147834ebb5e3:background3
+                        Is2D: true

@@ -2,7 +2,6 @@
 using Stride.Core.Mathematics;
 using Stride.Engine;
 using Stride.Physics;
-using System;
 using System.Threading.Tasks;
 
 namespace RpgGame
@@ -15,8 +14,9 @@ namespace RpgGame
 
         public override async Task Execute()
         {
-            var shootBallSound = Content.Load<Sound>("GhostDiesSound");
+            var shootBallSound = Content.Load<Sound>("Sounds/GhostDiesSound");
             ghostDiesSound = shootBallSound.CreateInstance();
+            ghostDiesSound.Volume = 0.1f;
 
             Script.AddTask(CheckCollision);
             while (Game.IsRunning)
@@ -37,10 +37,12 @@ namespace RpgGame
 
             // Check if affected contains the IsDestructable component.
             var isDestructable = affected.Get<IsDestructableComponent>();
-            if (isDestructable != null) 
+            if (isDestructable != null)
             {
                 // remove affected (Ghost)
                 isDestructable.Destroy();
+
+                ScoreManager.AddScore(50);
 
                 ghostDiesSound.Play();
             }

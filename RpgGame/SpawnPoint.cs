@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Stride.Core.Mathematics;
-using Stride.Input;
+﻿using Stride.Core.Mathematics;
 using Stride.Engine;
 using Stride.Graphics;
 using Stride.Physics;
 using Stride.Rendering.Sprites;
+using System.Linq;
 
 namespace RpgGame
 {
@@ -24,9 +19,14 @@ namespace RpgGame
             var deltaTime = (float)Game.UpdateTime.Elapsed.TotalSeconds;
             Entity.Transform.Rotation *= Quaternion.RotationZ(deltaTime * rotationSpeed);
 
-            // Spawn ghosts every 5 seconds.
+
+            int spawnRateInSec = 5;
+            if (ScoreManager.Score > 500) spawnRateInSec = 4;
+            if (ScoreManager.Score > 1500) spawnRateInSec = 3;
+            if (ScoreManager.Score > 2500) spawnRateInSec = 2;
+
             accumulatedTime += deltaTime;
-            if (accumulatedTime > 5)
+            if (accumulatedTime > spawnRateInSec)
             {
                 SpawnGhost();
                 accumulatedTime = 0;

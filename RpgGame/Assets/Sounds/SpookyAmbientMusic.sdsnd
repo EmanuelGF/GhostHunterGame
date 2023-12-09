@@ -1,0 +1,9 @@
+!Sound
+Id: 99c973bb-a234-45da-8b60-d0dd72ac8327
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../SimpleFirstGame2/SimpleFirstGame2/Resources/SpookyAmbientMusic.mp3
+SampleRate: 24000
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: false

@@ -1,0 +1,7 @@
+!Texture
+Id: de6bfccd-50aa-48e0-91c3-e8ba72ca481f
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../SimpleFirstGame2/SimpleFirstGame2/Resources/GameMenuBG.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
