@@ -16,7 +16,12 @@ namespace RpgGame.StartMenu
             {
                 ScoreManager.ResetScore();
 
+                // Reset the current scene.
+                Content.Unload(SceneSystem.SceneInstance.RootScene);
+
+                // Load the LevelOne scene.
                 SceneSystem.SceneInstance.RootScene = Content.Load<Scene>("Scenes/LevelOne");
+
             };
         }
     }
