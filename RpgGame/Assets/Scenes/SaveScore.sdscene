@@ -1,0 +1,30 @@
+!SceneAsset
+Id: 1e130cfa-eef7-43ff-a078-5d133e8141bb
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+ChildrenIds: []
+Parent: 9d2367a6-d606-46ed-ac4a-92a4b50f9110:Scenes/LevelOne
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
+Hierarchy:
+    RootParts:
+        - ref!! 5867df63-0bf5-42f8-8e37-c07e5f5a5a76
+    Parts:
+        -   Entity:
+                Id: 5867df63-0bf5-42f8-8e37-c07e5f5a5a76
+                Name: SaveScoreUI
+                Components:
+                    f708d67897d38dd52da879e764462966: !TransformComponent
+                        Id: 04ff1829-06b0-428c-a555-51e87dd75173
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    5e17ca639f01baf77e321c0d16582226: !UIComponent
+                        Id: bcdc0bbe-ab15-4b07-a933-356b920e247e
+                        Page: 342a37e7-c50c-4da2-aa7e-839fc07c93f4:SaveScoreUI
+                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                        Size: {X: 1.28, Y: 0.72, Z: 1.0}
+                    766b35088e483c4bf3b373d6bb818f51: !RpgGame.SaveScore.ShowScore,RpgGame
+                        Id: d2327f4f-0a4f-4b23-b703-36e49277b64d
+                    4b2697f5ab02be9b12cb7fbb725a00d2: !RpgGame.SaveScore.ConfirmButtonClick,RpgGame
+                        Id: d566838e-b7bf-4554-814b-828edd4bbbda

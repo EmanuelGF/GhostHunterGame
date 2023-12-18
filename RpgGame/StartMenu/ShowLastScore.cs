@@ -1,4 +1,5 @@
-﻿using Stride.Engine;
+﻿using RpgGame.Services;
+using Stride.Engine;
 using Stride.UI;
 using Stride.UI.Controls;
 
@@ -6,7 +7,6 @@ namespace RpgGame.StartMenu
 {
     public class ShowLastScore : StartupScript
     {
-
         public override void Start()
         {
             // Show latest score on the start menu.

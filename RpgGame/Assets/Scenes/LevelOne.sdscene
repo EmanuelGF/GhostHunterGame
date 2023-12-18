@@ -2,7 +2,8 @@
 Id: 9d2367a6-d606-46ed-ac4a-92a4b50f9110
 SerializedVersion: {Stride: 3.1.0.1}
 Tags: []
-ChildrenIds: []
+ChildrenIds:
+    - 1e130cfa-eef7-43ff-a078-5d133e8141bb
 Offset: {X: 0.0, Y: 0.0, Z: 0.0}
 Hierarchy:
     RootParts:

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace RpgGame
+namespace RpgGame.Services
 {
     public static class ScoreManager
     {

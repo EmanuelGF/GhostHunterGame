@@ -1,0 +1,50 @@
+!UIPageAsset
+Id: abc4c2f3-17a0-4a50-ab74-b340fcc46df6
+SerializedVersion: {Stride: 2.1.0.1}
+Tags: []
+Design:
+    Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+Hierarchy:
+    RootParts:
+        - !Grid ref!! 367c28f2-b3d4-4524-8097-50ce0e5610dc
+    Parts:
+        -   UIElement: !Grid
+                Id: 367c28f2-b3d4-4524-8097-50ce0e5610dc
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 269.0
+                Height: 720.0
+                HorizontalAlignment: Right
+                Margin: {}
+                Children:
+                    f3ac1f137e21b59abf89a062fc8dff5f: !TextBlock ref!! 814026ff-0ebb-44cf-be4f-ccf08644228b
+                    e7b91a3272baa90100c9746c01a6b208: !TextBlock ref!! 6850cd6b-737e-4f00-bea9-e55bff2f7cf0
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !TextBlock
+                Id: 6850cd6b-737e-4f00-bea9-e55bff2f7cf0
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 269.0
+                Height: 425.0
+                Margin: {Top: 172.0, Bottom: 123.0}
+                Name: HiScoresList
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 151, G: 184, B: 39, A: 255}
+                TextAlignment: Center
+        -   UIElement: !TextBlock
+                Id: 814026ff-0ebb-44cf-be4f-ccf08644228b
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 269.0
+                Height: 34.0
+                VerticalAlignment: Top
+                Margin: {Top: 108.0}
+                Name: Title
+                Text: HI SCORES
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 25.0
+                TextColor: {R: 151, G: 184, B: 39, A: 255}
+                TextAlignment: Center

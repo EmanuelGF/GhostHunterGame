@@ -1,4 +1,5 @@
-﻿using Stride.Engine;
+﻿using RpgGame.Services;
+using Stride.Engine;
 using Stride.Physics;
 using System.Threading.Tasks;
 
@@ -6,7 +7,7 @@ namespace RpgGame
 {
     public class GhostCollidesWithGhostHunterBehaviour : AsyncScript
     {
-        // Declared public member fields and properties will show in the game studio
+        private Scene saveScore;
 
         public override async Task Execute()
         {
@@ -27,13 +28,29 @@ namespace RpgGame
 
             if (affected.Name == "GhostHunter")
             {
-                // Reset the current scene.
-                Content.Unload(SceneSystem.SceneInstance.RootScene);
+                if (ScoreManager.Score > 0)
+                {
+                    // Remove the GhostHunter from the scene.
+                    affected.Scene = null;
+                    affected.Dispose();
 
-                // Load the StartMenu scene.
-                SceneSystem.SceneInstance.RootScene = Content.Load<Scene>("Scenes/StartMenu");
+                    // Load the SaveScore child scene.
+                    saveScore = Content.Load<Scene>("Scenes/SaveScore");
+                    saveScore.Name = "SaveScore";
+
+                    // Add the SaveScore scene to the current scene.
+                    SceneSystem.SceneInstance.RootScene.Children.Add(saveScore);
+
+                }
+                else
+                {
+                    // Reset the current scene.
+                    Content.Unload(SceneSystem.SceneInstance.RootScene);
+
+                    // Load the StartMenu scene.
+                    SceneSystem.SceneInstance.RootScene = Content.Load<Scene>("Scenes/StartMenu");
+                }
             }
-
         }
     }
 }

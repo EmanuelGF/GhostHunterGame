@@ -16,7 +16,10 @@ Bundles: []
 TemplateFolders: []
 RootAssets:
     - 0f9de02a-80f5-4cb9-83e3-1c65fa690e71:Sounds/MagicBallSound
+    - 1e130cfa-eef7-43ff-a078-5d133e8141bb:Scenes/SaveScore
+    - 342a37e7-c50c-4da2-aa7e-839fc07c93f4:SaveScoreUI
     - 7df1c716-b8a4-4c15-9e00-24cefdd9522d:Scenes/StartMenu
     - 99c973bb-a234-45da-8b60-d0dd72ac8327:Sounds/SpookyAmbientMusic
     - 9d2367a6-d606-46ed-ac4a-92a4b50f9110:Scenes/LevelOne
+    - abc4c2f3-17a0-4a50-ab74-b340fcc46df6:HiScoresUI
     - d974c32c-a7a5-4aca-bbde-68804645a93f:Sounds/GhostDiesSound

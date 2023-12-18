@@ -10,6 +10,7 @@ Hierarchy:
         - ref!! e162eab0-edd9-4789-bb8d-28b315656bb8
         - ref!! 52880abf-cf47-464b-a675-7e1cc97c7fe9
         - ref!! ba970d14-deef-4c14-9d09-113398966d0d
+        - ref!! 79cee0ab-4487-4f10-b38d-e9d116917166
     Parts:
         -   Entity:
                 Id: 4c94f99e-2f1b-483f-a249-a9e72e81deaf
@@ -47,6 +48,23 @@ Hierarchy:
                         Id: 1f58e179-f315-4896-9f3f-cdcd0b08a925
                     cd53e8814fefa2014ef7a8e930997049: !RpgGame.StartMenu.ShowLastScore,RpgGame
                         Id: 6bbed897-7c8c-454e-a97b-3d8d67a6a1e5
+        -   Entity:
+                Id: 79cee0ab-4487-4f10-b38d-e9d116917166
+                Name: HiScoresUI
+                Components:
+                    531d8b273cf37005dbcfdbe57ae37de2: !TransformComponent
+                        Id: 0474ca39-f6a6-4ec1-b04c-484feeb1302e
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    e77043d5e3a9b44c4ba8815f33547649: !UIComponent
+                        Id: 446efb04-44b6-474e-b0cf-c111c049f347
+                        Page: abc4c2f3-17a0-4a50-ab74-b340fcc46df6:HiScoresUI
+                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                        Size: {X: 1.28, Y: 0.72, Z: 1.0}
+                    ff6acb61096095d30307b65b465abb08: !RpgGame.StartMenu.ShowHiScores,RpgGame
+                        Id: f15d8f37-0bd7-412c-8fad-68f3185980a9
         -   Entity:
                 Id: ba970d14-deef-4c14-9d09-113398966d0d
                 Name: BGAmbientSound
