@@ -12,7 +12,7 @@ namespace RpgGame.StartMenu
     {
         public override async Task Execute()
         {
-            var apiService = new ApiService();
+            var apiService = ApiService.Instance;
             try
             {
                 // Get the HiScores UI page.

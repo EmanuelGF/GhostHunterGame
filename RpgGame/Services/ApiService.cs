@@ -1,4 +1,5 @@
 ﻿using RpgGame.DTO;
+using System;
 using System.Net.Http;
 using System.Text;
 using System.Text.Json;
@@ -8,13 +9,17 @@ namespace RpgGame.Services
 {
     public class ApiService
     {
+        private static readonly Lazy<ApiService> _instance = new(() => new ApiService());  
         private readonly HttpClient _httpClient;
         private readonly string _apiBaseUrl;
+        
+        public static ApiService Instance => _instance.Value;
 
-        public ApiService()
+        private ApiService()
         {
             _httpClient = new HttpClient();
-            _apiBaseUrl = "https://localhost:7165/api/Scores";
+            var configuration = ConfigurationReader.GetConfiguration();
+            _apiBaseUrl = configuration["ApiBaseUrl"];
         }
 
         public async Task<bool> SubmitScoreAsync(string playerName, int score)

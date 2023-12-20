@@ -21,7 +21,7 @@ namespace RpgGame.SaveScore
                 page = Entity.Get<UIComponent>().Page;
                 var playerName = page.RootElement.FindVisualChildOfType<EditText>("PlayerName");
 
-                var apiService = new ApiService();
+                var apiService = ApiService.Instance;
                 try
                 {
                     await apiService.SubmitScoreAsync(playerName.Text, ScoreManager.Score);
